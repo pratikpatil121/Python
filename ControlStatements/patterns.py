@@ -119,3 +119,17 @@ for i in range(row):
 		num=num+1
 	print()
 print()
+
+'''
+9 8 7
+6 5 4
+3 2 1
+'''
+num=int(input("Enter the number of matrix: "))
+row=num*num
+for i in range(num):
+	for j in range(num):
+		print(row,end=" ")
+		row=row-1
+	print()
+print()
