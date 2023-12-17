@@ -1,0 +1,7 @@
+#revere  numbers in while loop
+
+end=int(input("Enter last number to reverse: "))
+i=end
+while i>=end:
+	print(i)
+	i-=1
