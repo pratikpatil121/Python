@@ -20,7 +20,7 @@ class MainWindow(QWidget):
     # funtion for creating the label and set in the main Layout
     def LabelUI(self):  
     #Here create the label with parameter "ello Core2web"
-        self.label = QLabel("Hello Core2Web")
+        self.label = QLabel("Hello It's Me Pratik")
     # set the label in the main layout window
         self.mainLayout.addWidget(self.label, 0, Qt.AlignmentFlag.AlignCenter)
 if __name__ == "__main__":
